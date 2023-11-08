@@ -1,0 +1,97 @@
+/*Do sidebara*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(images.png);
+    background-size: cover;
+  }
+  
+.sidebar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+.sidebar ul li {
+    margin-right: 10px;
+  }
+  
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+  }
+  
+.sidebar ul li a:hover {
+    color: #ff8c00;
+  }
+
+/*Do obrazu */
+
+.cos1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.obrazek1, .obrazek2 {
+  padding: 10px;
+  border: 2px solid   black;
+}
+
+/*Do przycisku*/
+
+.przycisk2 {
+  padding: 10px;
+  background-color: grey;
+  color: #333;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .przycisk2:hover {
+  background-color: rgb(153, 153, 153);
+  }
+
+/*Do tekstu*/
+
+.cos2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.tekst1 {
+  padding: 10px;
+  border: 3px solid black;  
+  width: 698px;
+  border-radius: 0 0 10px 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tekst2 {
+  padding: 10px;
+  border: 3px solid black;  
+  width: 698px;
+  border-radius: 0 0 10px 10px;
+  font-size: 18px;
+  text-align: center;
+}
